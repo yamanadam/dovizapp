@@ -5,8 +5,8 @@ import Money from "./components/Money";
 function App() {
   return (
     <div className="App">
-      <Advice />
       <Money />
+      {/* <Advice /> */}
     </div>
   );
 }
