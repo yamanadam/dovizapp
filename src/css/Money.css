@@ -7,20 +7,19 @@
   border: 2px solid grey;
   width: 30rem;
   height: 10rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .amount,
-.result-amount {
-  width: 3.5rem;
-  height: 1.5rem;
-  margin: 0 0.5rem;
-}
-
+.result-amount,
 .fromMoney,
 .toMoney {
   width: 3.5rem;
   height: 1.5rem;
   margin: 0 0.5rem;
+  background-color: black;
+  color: #fff;
 }
 
 .money-text {
@@ -29,20 +28,4 @@
 
   background-color: black;
   color: #fff;
-}
-
-.money-button {
-  width: 7rem;
-  height: 1.5rem;
-  margin-top: 15px;
-  border: none;
-  background-color: red;
-  color: #fff;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all 0.9 ease-in-out;
-}
-
-.money-button:hover {
-  transform: scale(1.1);
 }
